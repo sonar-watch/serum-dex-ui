@@ -1,6 +1,6 @@
-# Serum DEX UI
+# Sonar - Serum DEX UI
 
-An implementation of a UI for the Serum DEX.
+Sonar implementation of a UI for the Serum DEX.
 
 ### Running the UI
 
