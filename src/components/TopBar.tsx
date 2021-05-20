@@ -48,6 +48,7 @@ const EXTERNAL_LINKS = {
   '/explorer': 'https://explorer.solana.com',
   '/srm-faq': 'https://projectserum.com/srm-faq',
   '/swap': 'https://swap.projectserum.com',
+  '/dashboard': 'https://sonar.watch/dashboard',
 };
 
 export default function TopBar() {
@@ -159,6 +160,17 @@ export default function TopBar() {
           <Menu.Item key={tradePageUrl} style={{ margin: '0 10px 0 20px' }}>
             TRADE
           </Menu.Item>
+          {!searchFocussed && (
+            <Menu.Item key="/dashboard" style={{ margin: '0 10px' }}>
+              <a
+                href={EXTERNAL_LINKS['/dashboard']}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DASHBOARD
+              </a>
+            </Menu.Item>
+          )}
           {!searchFocussed && (
             <Menu.Item key="/swap" style={{ margin: '0 10px' }}>
               <a
