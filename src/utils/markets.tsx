@@ -23,7 +23,8 @@ import {
 import {WRAPPED_SOL_MINT} from '@project-serum/serum/lib/token-instructions';
 import {Order} from '@project-serum/serum/lib/market';
 import BonfidaApi from './bonfidaConnector';
-import sonarMarkets from './sonarMarkets.json'
+import sonarMarkets from './sonar-markets.json'
+import sonarTokenMints from './sonar-token-mints.json'
 
 export const SONAR_MARKETS: Array<{
   address: PublicKey;
@@ -43,6 +44,20 @@ export const SONAR_MARKETS: Array<{
     };
   });
 
+  export const SONAR_TOKEN_MINTS: Array<{
+    address: PublicKey;
+    name: string;
+  }> = sonarTokenMints
+  .filter((sonarTokenMint) => {
+    return (TOKEN_MINTS.find(tokenMint => tokenMint.address.toString() === sonarTokenMint.address) !== undefined)?false:true
+  })
+  .map((mint) => {
+    return {
+      address: new PublicKey(mint.address),
+      name: mint.name,
+    };
+  });
+  
 // Used in debugging, should be false in production
 const _IGNORE_DEPRECATED = false;
 
@@ -194,13 +209,13 @@ export function getMarketDetails(
   );
   const baseCurrency =
     (market?.baseMintAddress &&
-      TOKEN_MINTS.find((token) => token.address.equals(market.baseMintAddress))
+      [...TOKEN_MINTS, ...SONAR_TOKEN_MINTS].find((token) => token.address.equals(market.baseMintAddress))
         ?.name) ||
     (marketInfo?.baseLabel && `${marketInfo?.baseLabel}*`) ||
     'UNKNOWN';
   const quoteCurrency =
     (market?.quoteMintAddress &&
-      TOKEN_MINTS.find((token) => token.address.equals(market.quoteMintAddress))
+      [...TOKEN_MINTS, ...SONAR_TOKEN_MINTS].find((token) => token.address.equals(market.quoteMintAddress))
         ?.name) ||
     (marketInfo?.quoteLabel && `${marketInfo?.quoteLabel}*`) ||
     'UNKNOWN';
