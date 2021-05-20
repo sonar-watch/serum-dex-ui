@@ -23,13 +23,32 @@ import {
 import {WRAPPED_SOL_MINT} from '@project-serum/serum/lib/token-instructions';
 import {Order} from '@project-serum/serum/lib/market';
 import BonfidaApi from './bonfidaConnector';
+import sonarMarkets from './sonarMarkets.json'
+
+export const SONAR_MARKETS: Array<{
+  address: PublicKey;
+  name: string;
+  programId: PublicKey;
+  deprecated: boolean;
+}> = sonarMarkets
+  .filter((sonarMarket) => {
+    return (MARKETS.find(market => market.address.toString() === sonarMarket.address) !== undefined)?false:true
+  })
+  .map((market) => {
+    return {
+      address: new PublicKey(market.address),
+      name: market.name,
+      programId: new PublicKey(market.programId),
+      deprecated: market.deprecated,
+    };
+  });
 
 // Used in debugging, should be false in production
 const _IGNORE_DEPRECATED = false;
 
 export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
-  ? MARKETS.map((m) => ({ ...m, deprecated: false }))
-  : MARKETS;
+  ? [...MARKETS, ...SONAR_MARKETS].map((m) => ({ ...m, deprecated: false }))
+  : [...MARKETS, ...SONAR_MARKETS];
 
 export function useMarketsList() {
   return USE_MARKETS.filter(({ name, deprecated }) => !deprecated && !process.env.REACT_APP_EXCLUDE_MARKETS?.includes(name));
