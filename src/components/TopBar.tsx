@@ -47,7 +47,6 @@ const EXTERNAL_LINKS = {
   '/developer-resources': 'https://serum-academy.com/en/developer-resources/',
   '/explorer': 'https://explorer.solana.com',
   '/srm-faq': 'https://projectserum.com/srm-faq',
-  '/swap': 'https://swap.projectserum.com',
   '/dashboard': 'https://sonar.watch/dashboard',
 };
 
@@ -168,17 +167,6 @@ export default function TopBar() {
                 rel="noopener noreferrer"
               >
                 DASHBOARD
-              </a>
-            </Menu.Item>
-          )}
-          {!searchFocussed && (
-            <Menu.Item key="/swap" style={{ margin: '0 10px' }}>
-              <a
-                href={EXTERNAL_LINKS['/swap']}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                SWAP
               </a>
             </Menu.Item>
           )}

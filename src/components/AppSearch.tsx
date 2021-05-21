@@ -82,7 +82,7 @@ export default function AppSearch(props) {
       value={searchValue}
       placeholder={
         props.focussed || props.focussed === undefined
-          ? 'Search for dex, swap, wallet, token...'
+          ? 'Search for dex, wallet, token...'
           : ''
       }
       onSearch={handleSearch}
