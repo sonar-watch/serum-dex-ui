@@ -49,5 +49,10 @@
         "deprecated": false,
         "name": "SOLAPE/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "HiyxvxXTf4VB1W7SiHcyysdskxTCfwmpeTqdJ8tettnD",
+        "deprecated": false,
+        "name": "MOLA/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
