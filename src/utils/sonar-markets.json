@@ -69,5 +69,10 @@
         "deprecated": false,
         "name": "RAY/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "HyERWE8TEQmDX157oLEpwaTc59ECzmvjUgZhZ2RNtNdn",
+        "deprecated": false,
+        "name": "INO/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
