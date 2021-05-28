@@ -23,6 +23,7 @@ import {InfoCircleOutlined} from '@ant-design/icons';
 import {useInterval} from "../utils/useInterval";
 import {useLocalStorageState} from "../utils/utils";
 import { AUTO_SETTLE_DISABLED_OVERRIDE } from "../utils/preferences";
+import { TokenIcon } from './TokenIcon';
 
 const RowBox = styled(Row)`
   padding-bottom: 20px;
@@ -182,6 +183,7 @@ export default function StandaloneBalancesDisplay() {
         ([currency, balances, baseOrQuote, mint], index) => (
           <React.Fragment key={index}>
             <Divider style={{ borderColor: 'white' }}>
+              <TokenIcon mint={mint || ''} size={25}></TokenIcon>{' '}
               {currency}{' '}
               {mint && (
                 <Popover
