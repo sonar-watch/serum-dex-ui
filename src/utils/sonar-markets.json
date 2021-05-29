@@ -74,5 +74,10 @@
         "deprecated": false,
         "name": "INO/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "GXL164trLUbf7FTjp76DLdgPiAzjysGosUaKTbCrsFK3",
+        "deprecated": false,
+        "name": "FEFE/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
