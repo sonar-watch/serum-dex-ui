@@ -89,5 +89,15 @@
         "deprecated": false,
         "name": "DGEN/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "GqQLxU1Dc6a7NYWRWdgbcGSTHirjy4quFivxXJGDzDCz",
+        "deprecated": false,
+        "name": "MERPOOL/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "5UcRuX8NrBwG1bpSHji2npZYvvhpyXVuxv42vKECtJ4y",
+        "deprecated": false,
+        "name": "SMB/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
