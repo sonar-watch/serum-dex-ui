@@ -7,7 +7,11 @@ module.exports = {
       options: {
         lessLoaderOptions: {
           lessOptions: {
-            modifyVars: { '@primary-color': '#2abdd2' },
+            modifyVars: {
+              '@primary-color': '#B38BF5',
+              '@font-family':
+                "'Bai Jamjuree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',  'Noto Color Emoji'",
+            },
             javascriptEnabled: true,
           },
         },
