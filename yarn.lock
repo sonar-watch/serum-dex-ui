@@ -1544,9 +1544,9 @@
   integrity sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==
 
 "@solana/spl-token-registry@^0.2.116":
-  version "0.2.116"
-  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.116.tgz#d0c7ca91e4b1c9244014af6b0c742bf224eb283e"
-  integrity sha512-EaLPtH8t1TBzDja92b46PolRNSgvafQCOJIaszB/gTEA+2tRoXBzB665680UMDXpt3NGbGa+OcJI06VdUbrxLQ==
+  version "0.2.135"
+  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.135.tgz#bd5c891ed5a59e15b78f16541b911ce31bf69141"
+  integrity sha512-p4tUZja3WTT9hCIaEouHYhWlxv1uOMVwnMzyY7t9urYrtA4Nd+yS5joWL1+9TTH1NjqQciZUOWG0fh7JoWV1Ag==
   dependencies:
     cross-fetch "3.0.6"
 
