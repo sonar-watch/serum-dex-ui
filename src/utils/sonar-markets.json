@@ -114,5 +114,10 @@
         "deprecated": false,
         "name": "MAPSPOOL/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "6hwK66FfUdyhncdQVxWFPRqY8y6usEvzekUaqtpKEKLr",
+        "deprecated": false,
+        "name": "SAIL/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
