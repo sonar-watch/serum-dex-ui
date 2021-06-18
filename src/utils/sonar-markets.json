@@ -119,5 +119,10 @@
         "deprecated": false,
         "name": "SAIL/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "2QXXnRnSBi4tviNUAsYv7tYDvYb17BQhK5MxR4sX5J3B",
+        "deprecated": false,
+        "name": "GÜ/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
