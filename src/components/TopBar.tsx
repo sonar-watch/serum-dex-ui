@@ -169,11 +169,6 @@ export default function TopBar() {
               </a>
             </Menu.Item>
           )}
-          {connected && (!searchFocussed || location.pathname === '/orders') && (
-            <Menu.Item key="/orders" style={{ margin: '0 10px' }}>
-              ORDERS
-            </Menu.Item>
-          )}
           {connected && (!searchFocussed || location.pathname === '/convert') && (
             <Menu.Item key="/convert" style={{ margin: '0 10px' }}>
               CONVERT
