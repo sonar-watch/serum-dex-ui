@@ -134,5 +134,10 @@
         "deprecated": false,
         "name": "SNY/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "2Gx3UfV831BAh8uQv1FKSPKS9yajfeeD8GJ4ZNb2o2YP",
+        "deprecated": false,
+        "name": "SLRS/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
