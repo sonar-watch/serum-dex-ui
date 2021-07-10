@@ -139,5 +139,10 @@
         "deprecated": false,
         "name": "SLRS/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "85CTDt8gNfJhmqE3Xm2smDm54HmeT1jvLfPVBTkX8BTX",
+        "deprecated": false,
+        "name": "CAPE/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
