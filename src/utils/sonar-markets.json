@@ -144,5 +144,10 @@
         "deprecated": false,
         "name": "CAPE/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "Cud48DK2qoxsWNzQeTL5D8sAiHsGwG8Ev1VMNcYLayxt",
+        "deprecated": false,
+        "name": "FAB/USDC (new)",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
