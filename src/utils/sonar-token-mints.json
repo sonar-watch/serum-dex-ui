@@ -90,5 +90,11 @@
     },{
         "address": "z9WZXekbCtwoxyfAwEJn1euXybvqLzPVv3NDzJzkq7C",
         "name": "CRC"
+    },{
+        "address": "CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5",
+        "name": "renBTC"
+    },{
+        "address": "ArUkYE2XDKzqy77PRRGjo4wREWwqk6RXTfM9NeqzPvjU",
+        "name": "renDOGE"
     }
 ]
