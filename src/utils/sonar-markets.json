@@ -174,5 +174,10 @@
         "deprecated": false,
         "name": "renDOGE/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "2ahbUT5UryyRVxPnELtTmDLLneN26UjBQFgfMVvbWDTb",
+        "deprecated": false,
+        "name": "renLUNA/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
