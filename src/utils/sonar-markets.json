@@ -184,5 +184,10 @@
         "deprecated": false,
         "name": "renZEC/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "3WptgZZu34aiDrLMUiPntTYZGNZ72yT1yxHYxSdbTArX",
+        "deprecated": false,
+        "name": "LIKE/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
