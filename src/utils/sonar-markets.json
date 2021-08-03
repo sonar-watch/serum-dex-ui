@@ -189,5 +189,10 @@
         "deprecated": false,
         "name": "LIKE/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "DYfigimKWc5VhavR4moPBibx9sMcWYVSjVdWvPztBPTa",
+        "deprecated": false,
+        "name": "DXL/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
