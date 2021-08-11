@@ -204,5 +204,10 @@
         "deprecated": false,
         "name": "ORCA/USDC",
         "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+    },{
+        "address": "3JR9wrufTbpT7rGzKJi3hGja7ZD9bd6VEEHhANiA9Hhu",
+        "deprecated": false,
+        "name": "gSAIL/USDC",
+        "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
     }
 ]
